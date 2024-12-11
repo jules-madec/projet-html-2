@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="assets/style.css">
     <title>Evasion et découverte</title>
 </head>
+
 <body>
     <header>
         <img src="assets/img/logo.svg" alt="logo de Evasion et découverte">
         <img src="assets/img/menu burger.svg" alt="menu burger" onclick="toggler()" id="toggler">
         <nav>
             <ul>
-                <li>Nos destinations phares</li>
-                <li>Galerie photo</li>
-                <li>Demande de devis</li>
-                <li>Témoignages clients</li>
-                <li>Contacts</li>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#destinations">Nos destinations phares</a></li>
+                <li><a href="#photoGallery">Galerie photo</a></li>
+                <li><a href="#estimate">Demande de devis</a></li>
+                <li><a href="#notice">Témoignages clients</a></li>
+                <li><a href="#contacts">Contacts</a></li>
             </ul>
         </nav>
         <img src="assets/img/image d'accueil.svg" alt="paysage avec slogan">
@@ -58,7 +61,7 @@
         <section id="photoGallery">
             <h2>Galerie photo</h2>
             <div>
-                <img src="assets/img/galerie img 1.svg" alt="paysage">
+                <img id="One" src="assets/img/galerie img 1.svg" alt="paysage">
                 <img src="assets/img/galerie img 2.svg" alt="paysage">
                 <img src="assets/img/galerie img 3.svg" alt="paysage">
                 <img src="assets/img/galerie img 4.svg" alt="paysage">
@@ -139,18 +142,18 @@
             </div>
         </section>
         <footer id="contacts">
-            <p id="contactsP">Contacts</p>
+            <h2 id="contactsP">Contacts</h2>
             <div>
                 <img src="assets/img/horraire.svg" alt="picto horloge">
                 <p>Du lundi au vendredi (8h-18h)</p>
                 <img src="assets/img/email.svg" alt="picto mail">
-                <p>Evasionetdecouverte@gmail.com</p>
+                <p><a href="Evasionetdecouverte@gmail.com">Evasionetdecouverte@gmail.com</a></p>
             </div>
             <div>
                 <img src="assets/img/adresse.svg" alt="picto adresse">
                 <p>25 rue des yvelines, 75116, Paris</p>
                 <img src="assets/img/telephone.svg" alt="picto telephone">
-                <p>06.58.03.56.60</p>
+                <p><a href="telto:0768802696">06.58.03.56.60</a></p>
             </div>
             <div>
                 <p>Suivez-nous:</p>
@@ -166,6 +169,7 @@
             </div>
         </footer>
     </main>
-   
+
 </body>
+
 </html>
